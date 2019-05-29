@@ -1,0 +1,9 @@
+.socialGroup {
+  align: right;
+}
+.socialGroup a {
+  color: darkblue;
+  font-size: 1.5em;
+  line-height: 0.5em;
+  padding-right: 1em;
+}
