@@ -1,0 +1,9 @@
+.menuBar {
+  border-right: 2px solid darkblue;
+}
+
+@media screen and (max-width: 575px) {
+  .menuBar {
+    border-right: 2px none darkblue;
+  }
+}
