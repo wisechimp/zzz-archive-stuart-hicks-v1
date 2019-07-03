@@ -43,7 +43,7 @@ export default (props) => (
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/bio/">Bio</Nav.Link>
+          <Nav.Link href="/interests/">Interests</Nav.Link>
         </Nav.Item>
       </Nav>
     </Navbar.Collapse>

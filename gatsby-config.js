@@ -8,5 +8,16 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     title: "Stuart Hicks App Developer",
-  }
+  },
+  plugins: [
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `skillslist`,
+        path: `${__dirname}/src/data`,
+      },
+    },
+    `gatsby-transformer-remark`,
+  ]
 }

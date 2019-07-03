@@ -1,0 +1,7 @@
+.skillIcon {
+  margin: 0.5em;
+}
+.skillIcon svg {
+  color: darkblue;
+  width: 2em;
+}
