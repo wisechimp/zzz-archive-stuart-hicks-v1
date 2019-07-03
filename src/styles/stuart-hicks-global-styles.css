@@ -7,6 +7,10 @@ h1 {
   padding-left: 1em;
 }
 
+h3 {
+  padding: 0 1em;
+}
+
 p {
   padding: 0 1em;
 }
@@ -17,13 +21,23 @@ p {
 .nav-link {
   padding: 0;
 }
+.skillIconRow {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  margin-bottom: 0.5em;
+}
 
 /*Presenting the menu bar in a material designish kind of fashion */
 @media screen and (min-width: 576px) {
 	.actionBar {
 		display: none;
 	}
+  .navbar .navbar-nav {
+    margin: auto;
+  }
 }
+
 @media screen and (max-width: 575px) {
 	h1 {
 		display: none;
