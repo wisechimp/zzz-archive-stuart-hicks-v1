@@ -6,6 +6,7 @@
 
 module.exports = {
   /* Your site config here */
+  // No prefix path as this is on a custom domain
   siteMetadata: {
     title: "Stuart Hicks App Developer",
   },
