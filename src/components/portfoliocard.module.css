@@ -1,0 +1,10 @@
+.portfolioCard {
+  border: 1px solid darkblue;
+}
+.portfolioCardTitle {
+  margin: auto;
+  padding: 0.5em 0;
+}
+.portfolioCardImage {
+  margin: auto;
+}
