@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Far Cry 2 Maps",
+    "platform": "Android/Java",
+    "imageSrc": "images/andfarcrytwomapsscreenshot.png",
+    "imgAltText": "A screenshot of the Far Cry 2 maps app showing the overview map",
+    "description": "A simple Android app with maps from the game Far Cry 2."
+  },
+  {
+    "id": 2,
+    "title": "The Perfect Beer",
+    "platform": "Android/Java",
+    "imageSrc": "images/andperfectbeerscreenshot.png",
+    "imgAltText": "A screenshot showing one of the selectable beers in the Perfect Beer App",
+    "description": "The app uses Newton's Law of Cooling to inform the user how much time their beer should spend in a cool environment to be served at the perfect temperature."
+  },
+  {
+    "id": 3,
+    "title": "Quake Report",
+    "platform": "Android/Java",
+    "imageSrc": "images/andquakereportscreenshot.png",
+    "imgAltText": "A screenshot showing the latest earthquakes in the Quake Report app",
+    "description": "The principal project from the Udacity course Android Basics: Networking. This returns data about recent earthquakes which have been reported on the US Geological Survey's website."
+  }
+]
