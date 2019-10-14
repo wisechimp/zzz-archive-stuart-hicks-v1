@@ -12,11 +12,20 @@ module.exports = {
   },
   plugins: [
     `gatsby-transformer-json`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `projectslist`,
+        path: `${__dirname}/src/data/projects`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `skillslist`,
-        path: `${__dirname}/src/data`,
+        path: `${__dirname}/src/data/skills`,
       },
     },
     `gatsby-transformer-remark`,
