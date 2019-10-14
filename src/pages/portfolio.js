@@ -23,6 +23,7 @@ class Portfolio extends Component {
                 projectScreenshot={node.imageSrc.childImageSharp.fluid}
                 imgAltText={node.imgAltText}
                 description={node.description}
+                hyperlink="/interests"
               />
             )
           })}
