@@ -4,7 +4,23 @@
 .portfolioCardTitle {
   margin: auto;
   padding: 0.5em 0;
+  text-align: center;
+}
+.portfolioCardTitleContainer {
+  border: 1px solid darkblue;
+  border-block-end: 2px solid darkblue;
+}
+/* Keep this for now as I intend change the styling of the platform label */
+.portfolioCardPlatform {
+  margin-bottom: 0;
+  padding: 0.5em;
 }
 .portfolioCardImage {
+  display: block;
   margin: auto;
+  max-width: 240px;
+}
+.portfolioCardText {
+  margin-bottom: 0;
+  padding: 0.5em;
 }

@@ -21,6 +21,14 @@ p {
 .nav-link {
   padding: 0;
 }
+
+.portfolioCards {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  width: 100%;
+}
+
 .skillIconRow {
   display: flex;
   flex-wrap:wrap;
