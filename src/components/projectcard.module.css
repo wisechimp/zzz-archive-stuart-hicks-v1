@@ -1,0 +1,21 @@
+.projectCard {
+  border: 1px solid darkblue;
+}
+.projectCardTitle {
+  margin: auto;
+  padding: 0.5em 0;
+  text-align: center;
+}
+.projectCardTitleContainer {
+  border: 1px solid darkblue;
+  border-block-end: 2px solid darkblue;
+}
+.projectCardImage {
+  display: block;
+  margin: auto;
+  max-width: 240px;
+}
+.projectCardText {
+  margin-bottom: 0;
+  padding: 0.5em;
+}
