@@ -25,8 +25,22 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         name: `skillslist`,
         path: `${__dirname}/src/data/skills`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options :{
+        name: "portfolio",
+        path: `${__dirname}/src/portfolio/`,
       },
     },
     `gatsby-transformer-remark`,

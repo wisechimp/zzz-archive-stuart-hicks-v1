@@ -1,15 +1,17 @@
-import React from 'react'
-import { Link } from "gatsby"
-import Img from "gatsby-image"
+import React from "react"
 
 import styles from "./projectcard.module.css"
 
-export default(props) => (
-  <div className={styles.projectCard}>
-    <div className={styles.projectCardTitleContainer}>
-      <h5 className={styles.projectCardTitle}>{props.title}</h5>
+const ProjectCard = (props) => {
+  return (
+    <div className={styles.projectCard}>
+      <div className={styles.projectCardTitleContainer}>
+        <h5 className={styles.projectCardTitle}>{props.title}</h5>
+      </div>
+      <img className={styles.projectCardImage} src={props.imageSrc} alt={props.imageAltText}/>
+      <p className={styles.projectCardText}>{props.description}</p>
     </div>
-    <Img className={styles.projectCardImage} fluid={props.imageSrc} alt={props.imageAltText}/>
-    <p className={styles.projectCardText}>{props.description}</p>
-  </div>
-)
+  )
+}
+
+export default ProjectCard
