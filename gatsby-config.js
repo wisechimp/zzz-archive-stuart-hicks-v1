@@ -40,7 +40,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options :{
         name: "portfolio",
-        path: `${__dirname}/src/portfolio/`,
+        path: `${__dirname}/src/pages/portfolio/`,
       },
     },
     `gatsby-transformer-remark`,

@@ -2,11 +2,15 @@
 title: "Employee Manager"
 platform: "React Native"
 ---
-import ProjectCard from "../components/projectcard"
+import Layout from "../../components/layout"
+import ProjectCard from "../../components/projectcard"
+import LoginScreen from "./images/mymanageriosloginscreen.png"
 
+<Layout pageTitle="Employee Manager">
+<h1>Employee Manager</h1>
 <ProjectCard
   title="Login Screen"
-  imageSrc=""
+  imageSrc={LoginScreen}
   imageAltText="Screenshot of Login screen for Employee Manager app"
   description="The login screen. Authentication is managed by Firebase."
 />
@@ -22,3 +26,4 @@ The final project from the Udemy course The Complete React Native and Redux cour
     <li>Sending a SMS</li>
     <li>Modals to act as a failsafe</li>
 </ul>
+</Layout>
