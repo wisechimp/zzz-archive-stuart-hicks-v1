@@ -5,7 +5,8 @@
     "platform": "Android/Java",
     "imageSrc": "images/andfarcrytwomapsscreenshot.png",
     "imgAltText": "A screenshot of the Far Cry 2 maps app showing the overview map",
-    "description": "A simple Android app with maps from the game Far Cry 2."
+    "description": "A simple Android app with maps from the game Far Cry 2.",
+    "hyperlink": "portfolio/employeemanager"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "platform": "Android/Java",
     "imageSrc": "images/andperfectbeerscreenshot.png",
     "imgAltText": "A screenshot showing one of the selectable beers in the Android Perfect Beer App",
-    "description": "The app uses Newton's Law of Cooling to inform the user how much time their beer should spend in a cool environment to be served at the perfect temperature."
+    "description": "The app uses Newton's Law of Cooling to inform the user how much time their beer should spend in a cool environment to be served at the perfect temperature.",
+    "hyperlink": "portfolio/employeemanager"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "platform": "Android/Java",
     "imageSrc": "images/andquakereportscreenshot.png",
     "imgAltText": "A screenshot showing the latest earthquakes in the Quake Report app",
-    "description": "The principal project from the Udacity course Android Basics: Networking. This returns data about recent earthquakes which have been reported on the US Geological Survey's website."
+    "description": "The principal project from the Udacity course Android Basics: Networking. This returns data about recent earthquakes which have been reported on the US Geological Survey's website.",
+    "hyperlink": "portfolio/employeemanager"
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "platform": "iOs/Swift",
     "imageSrc": "images/iosperfectbeerscreenshot.png",
     "imgAltText": "A screenshot showing one of the selectable beers in the iOs Perfect Beer App",
-    "description": "The app uses Newton's Law of Cooling to inform the user how much time their beer should spend in a cool environment to be served at the perfect temperature."
+    "description": "The app uses Newton's Law of Cooling to inform the user how much time their beer should spend in a cool environment to be served at the perfect temperature.",
+    "hyperlink": "portfolio/employeemanager"
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@
     "platform": "React Native",
     "imageSrc": "images/rniosmymanagerscreenshot.png",
     "imgAltText": "A screenshot from the My Manager app written with React Native. Showing the add new employee form.",
-    "description": "The final project from the Udemy course \"The Complete React Native and Redux\" course is an app for manager's to notify employees of their shifts by SMS."
+    "description": "The final project from the Udemy course \"The Complete React Native and Redux\" course is an app for manager's to notify employees of their shifts by SMS.",
+    "hyperlink": "portfolio/employeemanager"
   },
   {
     "id": 6,
@@ -45,6 +50,7 @@
     "platform": "React/Gatsby",
     "imageSrc": "images/pwaskanestagsscreenshot.png",
     "imgAltText": "The homepage for the Skane Stags website",
-    "description": "Skane Stags rugby league club's website, built using gatsby/react as a progressive web app."
+    "description": "Skane Stags rugby league club's website, built using gatsby/react as a progressive web app.",
+    "hyperlink": "portfolio/employeemanager"
   }
 ]
