@@ -4,17 +4,58 @@ platform: "React Native"
 ---
 import ProjectCard from "../../components/projectcard"
 import LoginScreen from "./images/mymanageriosloginscreen.png"
+import EmployeeListScreen from "./images/mymanageriosemployeelistscreen.png"
+import EmployeeScreen from "./images/mymanageriosemployeescreen.png"
+import NewEmployeeScreen from "./images/mymanageriosnewemployeescreen.png"
+import DeleteEmployeeScreen from "./images/mymanageriosemployeedeleteconfirmationmodal.png"
 
-<ProjectCard
-  title="Login Screen"
-  imageSrc={LoginScreen}
-  imageAltText="Screenshot of Login screen for Employee Manager app"
-  description="The login screen. Authentication is managed by Firebase."
-/>
+export const emScreenData = [
+  {
+    title: "Login Screen",
+    imageSrc: LoginScreen,
+    imageAltText: "Screenshot of Login screen for Employee Manager app",
+    description: "The login screen. Authentication is managed by Firebase."
+  },
+  {
+    title: "Employee List",
+    imageSrc: EmployeeListScreen,
+    imageAltText: "The employee list screen",
+    description: "A successful login reveals a list of employees in the areas of Firebase that the Manager overseas. New employees can be added (See the New Employee Screen) or selecting an employee in the list leads to the Employee Screen."
+  },
+  {
+    title: "New Employee Screen",
+    imageSrc: NewEmployeeScreen,
+    imageAltText: "The New Employee Screen",
+    description: "Selecting the Add button on the previous screen leads to this form where a new employee's details can be entered and saved to Firebase."
+  },
+  {
+    title: "Employee Screen",
+    imageSrc: EmployeeScreen,
+    imageAltText: "The Employee's Screen",
+    description: "This form allows the Manager to edit an employee's details, notify them of their shift via SMS and even delete them. There's a failsafe if the manager accidently \"fires\" an employee in the form of a modal."
+  },
+  {
+    title: "Delete Employee?",
+    imageSrc: DeleteEmployeeScreen,
+    imageAltText: "The Delete employee screen",
+    description: "This modal requires confirmation that the manager did intend to delete an employee from the database."
+  }
+]
+
+<div className="portfolioCards">{emScreenData.map(
+  emScreenData =>
+    <ProjectCard
+      title={emScreenData.title}
+      imageSrc={emScreenData.imageSrc}
+      imageAltText={emScreenData.imageAltText}
+      description={emScreenData.description}
+    />
+  )}
+</div>
 
 <h3>Experience</h3>
 
-The final project from the Udemy course The Complete React Native and Redux course. The course is slightly out of date at the present time so there were a few times when troubleshooting was required to upgrade deprecated/out of favour code/tools or UX improvements that had been overlooked on the course. Learning points included:
+The final project from the Udemy course [The Complete React Native and Redux](https://www.udemy.com/course/the-complete-react-native-and-redux-course/) course. The course is slightly out of date at the present time so there were a few times when troubleshooting was required to upgrade deprecated/out of favour code/tools or UX improvements that had been overlooked on the course. Learning points included:
 <ul>
     <li>Authentication, reading and writing to Firebase</li>
     <li>Styling and layouts with flexbox</li>
