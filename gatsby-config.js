@@ -13,8 +13,15 @@ module.exports = {
   plugins: [
     `gatsby-transformer-json`,
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-mdx`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options :{
+        defaultLayouts: {
+          default: require.resolve(`./src/components/project-page-layout.js`),
+        },
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
