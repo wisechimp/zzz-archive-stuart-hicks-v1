@@ -1,0 +1,58 @@
+---
+title: "Far Cry 2 Maps"
+platform: "Android/Java"
+---
+import ProjectCard from "../../components/projectcard"
+import GooglePlayLogo from "./images/googleplaylogo.png"
+import CompleteMap from "./images/farcry2mapsscreen1.png"
+import MapSection from "./images/farcry2mapsscreen2.png"
+import AreaDetail from "./images/farcry2mapsscreen3.png"
+
+export const fc2ScreenData = [
+  {
+    title: "Complete Map",
+    imageSrc: CompleteMap,
+    imageAltText: "Screenshot of the complete map.",
+    description: "The home screen is a GridView with the various maps presented as clickable thumbnails. Selecting a thumbnail leads to..."
+  },
+  {
+    title: "Map Section",
+    imageSrc: MapSection,
+    imageAltText: "A section of the complete map with invisible clickable areas.",
+    description: "The enlarged portion of the maps selected, with useful information for someone playing the game. The i (info) button to the top right reveals a key for the map. Some maps feature an invisible highlighted area which can be selected and subsequently enlarged."
+  },
+  {
+    title: "Detailed Area",
+    imageSrc: AreaDetail,
+    imageAltText: "A detailed map selected from the map section",
+    description: "The detailed map for the area selected in the previous screen."
+  }
+]
+
+![The Google Play Logo](/src/portfolio/images/googleplaylogo.png)
+
+[![The Google Play Logo](./images/googleplaylogo.png)](https://play.google.com/store/apps/details?id=com.wisechimp.farcry2maps)
+
+<div className="portfolioCards">{fc2ScreenData.map(
+  fc2ScreenData =>
+    <ProjectCard
+      title={fc2ScreenData.title}
+      imageSrc={fc2ScreenData.imageSrc}
+      imageAltText={fc2ScreenData.imageAltText}
+      description={fc2ScreenData.description}
+    />
+  )}
+</div>
+
+<h3>Experience</h3>
+
+My first published Android app, produced during my Malmö Yrkeshögskolan course on app development. The app is intended to be an aid when playing the game Far Cry 2 as it contains all the maps for the game, including the location of various useful items which are needed during play. One of the biggest difficulties encountered here was retaining the information passed through the app when going back (phone's back button) or up (from the toolbar) from the third screen to the second.
+
+<ul>
+    <li>Grid Layout</li>
+    <li>Consistent navigation when using Back v Up</li>
+    <li>Using a colour picker and an invisible overlay to make a portion of a screen clickable</li>
+    <li>Firebase Analytics & Ads</li>
+    <li>Deploying an app to the Google Play Store</li>
+    <li>Responding to Google Play reviews, both good and not so helpful!</li>
+</ul>
