@@ -2,7 +2,6 @@ body {
   background-color: lightblue;
   color: darkblue;
 }
-
 h1 {
   padding-left: 1em;
 }
@@ -10,18 +9,15 @@ h1 {
 h3 {
   padding: 0 1em;
 }
-
 p {
   padding: 0 1em;
 }
-
 .navbar-light .navbar-nav .nav-link {
   color: darkblue;
 }
 .nav-link {
   padding: 0;
 }
-
 .portfolioCards {
   display: grid;
   grid-gap: 10px;
@@ -29,14 +25,15 @@ p {
   margin: 10px;
   width: 100%;
 }
-
+.vertical-timeline-element-icon svg {
+  margin-top: 8px !important;
+}
 .skillIconRow {
   display: flex;
   flex-wrap:wrap;
   justify-content: center;
   margin-bottom: 0.5em;
 }
-
 /*Presenting the menu bar in a material designish kind of fashion */
 @media screen and (min-width: 576px) {
 	.actionBar {

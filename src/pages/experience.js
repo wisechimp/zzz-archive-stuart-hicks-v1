@@ -14,7 +14,7 @@ export default () => (
         className="vertical-timeline-element--education"
         date="August 2019"
         iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-        icon={<SimpleIcons name="Udacity" />}
+        icon={<SimpleIcons name="Udacity" className="simpleIconPosition" />}
       >
         <h3 className="vertical-timeline-element-title">
           Developing Android Apps with Kotlin
