@@ -1,5 +1,6 @@
 .projectCard {
   border: 1px solid darkblue;
+  max-width: 240px;
 }
 .projectCardTitle {
   margin: auto;

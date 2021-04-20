@@ -8,7 +8,7 @@ module.exports = {
   /* Your site config here */
   // No prefix path as this is on a custom domain
   siteMetadata: {
-    title: "Stuart Hicks App Developer",
+    title: "Stuart Hicks - App Developer",
   },
   plugins: [
     `gatsby-transformer-json`,
@@ -16,7 +16,7 @@ module.exports = {
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-mdx`,
-      options :{
+      options: {
         defaultLayouts: {
           default: require.resolve(`./src/components/project-page-layout.js`),
         },
@@ -45,11 +45,11 @@ module.exports = {
     },
     {
       resolve: `gatsby-source-filesystem`,
-      options :{
+      options: {
         name: "portfolio",
         path: `${__dirname}/src/pages/portfolio/`,
       },
     },
     `gatsby-transformer-remark`,
-  ]
+  ],
 }
