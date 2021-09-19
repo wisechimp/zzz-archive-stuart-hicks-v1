@@ -15,10 +15,10 @@ class Skills extends Component {
 
       <h3><i>Technical Buzzwords</i></h3>
       <ul>
-        <li>Mobile: Android - MVVM, Room NoSQL Databases, Firebase Database and Authentication, Local Notifications, Data Persistence</li>
+        <li>Mobile: Android - Jumppack, MVVM, LiveData, Room NoSQL Databases, Firebase Database and Authentication, Local Notifications, Data Persistence</li>
         <li>Mobile: iOs - Local Notifications, Firebase Database and Authentication</li>
         <li>Mobile: React Native - Redux for managing state, Firebase Database and Authentication, Data persistence </li>
-        <li>Responsive PWAs: Gatsby/React - Google Functions, WordPress integration</li>
+        <li>Responsive PWAs: Gatsby/React - Google Functions, WordPress integration, graphql</li>
         <li>Version Control: Git</li>
       </ul>
       <div className="skillIconRow">
