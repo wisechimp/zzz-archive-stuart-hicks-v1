@@ -1,7 +1,7 @@
 {
-  "name": "stuart-hicks-dev",
+  "name": "gatsby-starter-hello-world",
   "private": true,
-  "description": "A personal portfolio website",
+  "description": "A simplified bare-bones starter for Gatsby",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -14,23 +14,16 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "dependencies": {
-    "@mdx-js/mdx": "^1.5.1",
-    "@mdx-js/react": "^1.5.1",
     "bootstrap": "^4.3.1",
     "gatsby": "^2.7.1",
-    "gatsby-image": "^2.2.28",
-    "gatsby-plugin-mdx": "^1.0.52",
-    "gatsby-plugin-sharp": "^2.2.30",
     "gatsby-source-filesystem": "^2.0.39",
     "gatsby-transformer-json": "^2.1.11",
     "gatsby-transformer-remark": "^2.3.12",
-    "gatsby-transformer-sharp": "^2.2.22",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.8",
     "react-dom": "^16.8.6",
     "react-icons": "^3.7.0",
-    "react-vertical-timeline-component": "^2.5.0",
     "simple-icons-react-component": "^1.0.0"
   },
   "devDependencies": {
