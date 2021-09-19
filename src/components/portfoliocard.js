@@ -4,7 +4,7 @@ import Img from "gatsby-image"
 
 import * as styles from "./portfoliocard.module.css"
 
-export default props => (
+const PortfolioCard = props => (
   <div className={styles.portfolioCard}>
     <div className={styles.portfolioCardTitleContainer}>
       <h5 className={styles.portfolioCardTitle}>{props.title}</h5>
@@ -23,3 +23,5 @@ export default props => (
     </div>
   </div>
 )
+
+export default PortfolioCard

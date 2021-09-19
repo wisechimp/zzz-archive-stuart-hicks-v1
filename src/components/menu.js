@@ -4,7 +4,7 @@ import { Nav, Navbar } from "react-bootstrap"
 import SocialMediaLinks from "./socialmedialinks"
 import * as styles from "./menu.module.css"
 
-export default props => (
+const Menu = props => (
   <Navbar expand="sm">
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Brand className="actionBar">{props.pageTitle}</Navbar.Brand>
@@ -38,3 +38,5 @@ export default props => (
     <SocialMediaLinks />
   </Navbar>
 )
+
+export default Menu
