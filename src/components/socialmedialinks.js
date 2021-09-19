@@ -1,7 +1,7 @@
 import React from "react"
 import { FaLinkedin, FaGithubSquare } from "react-icons/fa"
 
-import styles from "./socialmedialinks.module.css"
+import * as styles from "./socialmedialinks.module.css"
 
 export default () => (
   <div className={styles.socialGroup}>
