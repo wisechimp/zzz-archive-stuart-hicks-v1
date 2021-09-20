@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 
-export default () => (
+const fourOhFourError = () => (
   <Layout pageTitle="Whoops!">
     <h1>Whoops!</h1>
     <p>
@@ -11,3 +11,5 @@ export default () => (
     </p>
   </Layout>
 )
+
+export default fourOhFourError

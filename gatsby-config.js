@@ -26,28 +26,28 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `projectslist`,
-        path: `./src/data/projects`,
+        path: `${__dirname}/src/data/projects`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `./src/images`,
+        path: `${__dirname}/src/images`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `skillslist`,
-        path: `./src/data/skills`,
+        path: `${__dirname}/src/data/skills`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: "portfolio",
-        path: `./src/pages/portfolio/`,
+        path: `${__dirname}/src/pages/portfolio/`,
       },
     },
     `gatsby-transformer-remark`,

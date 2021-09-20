@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithubSquare } from "react-icons/fa"
 
 import * as styles from "./socialmedialinks.module.css"
 
-export default () => (
+const SocialMediaLinks = () => (
   <div className={styles.socialGroup}>
     <a
       href="https://www.linkedin.com/in/stuarthicksse"
@@ -19,3 +19,5 @@ export default () => (
     </a>
   </div>
 )
+
+export default SocialMediaLinks

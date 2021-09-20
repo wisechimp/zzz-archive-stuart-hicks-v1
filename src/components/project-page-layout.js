@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react"
 
-import Layout from './layout'
+import Layout from "./layout"
 
-function ProjectPageLayout({ children, pageContext}) {
+const ProjectPageLayout = ({ children, pageContext }) => {
   const { title } = pageContext.frontmatter
 
   return (
