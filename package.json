@@ -19,7 +19,7 @@
     "bootstrap": "^5.1.1",
     "gatsby": "^3.1.14",
     "gatsby-image": "^3.11.0",
-    "gatsby-plugin-mdx": "^2.14.0",
+    "gatsby-plugin-mdx": "^2.14.1",
     "gatsby-plugin-sharp": "^3.14.0",
     "gatsby-source-filesystem": "^3.14.0",
     "gatsby-transformer-json": "^3.14.0",
